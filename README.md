@@ -12,3 +12,7 @@ The code is a basic particle filter.  After grabbing a frame from a camera feed 
 As a demonstrator, the code is limited in functionality, for example, there is no occlusion handling.  As a particle filter method, the code is also inherently subject to small errors which can accumulate over time.  This manifests as a slow deviation away from the original target image patch.  As a randomized prediction mechanism, it can also be affected by the choice of parameters that govern its capacity to recover from loss of tracking, for example, due to fast image movement.  Particle filters are also dependent on the number of particles and the number of sensor calculations.  However, increasing either (good for tracking fidelity) slows down execution, creating image lag (bad for tracking).
 
 With all these said, enjoy the code.
+
+这次下载下来，在电脑上的位置是
+D:\code\object_detection\object-tracking-particle-filter
+在我的环境之下就可以直接运行了
